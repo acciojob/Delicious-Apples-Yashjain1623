@@ -1,1 +1,36 @@
 /* your code here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px 20px;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.variant ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.photo-album ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+#button{
+    margin: -70px 800px;
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
